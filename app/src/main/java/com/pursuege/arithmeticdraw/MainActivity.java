@@ -101,7 +101,6 @@ public class MainActivity extends Activity {
         super.onActivityResult(requestCode, resultCode, data);
     }
 
-
     public void onclickAddPhoto(View view) {
         Intent intent = new Intent();
                 /* 开启Pictures画面Type设定为image */
@@ -111,7 +110,6 @@ public class MainActivity extends Activity {
                 /* 取得相片后返回本画面 */
         startActivityForResult(intent, 1);
     }
-
 
     private void log(String str) {
         Log.i("test_img", str);
