@@ -37,7 +37,6 @@ public class MainActivity extends Activity {
     }
 
     private Bitmap bmp = null;
-
     public void onclickJisuan(View view) {
         if (bmp == null) {
             tvResoult.setText("图片为空");
