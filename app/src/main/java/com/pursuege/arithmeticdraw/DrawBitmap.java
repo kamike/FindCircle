@@ -13,7 +13,7 @@ import android.view.View;
  */
 public class DrawBitmap extends View {
 
-
+    //
     private Bitmap bmp;
     private float cx;
     private float cy;
